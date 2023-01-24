@@ -277,7 +277,7 @@ ui <- fluidPage(
       radioButtons("comparison", "Compare", choiceNames=c("Student Expectations vs. Practitioner Expectations","Student Confidence vs. Practitioner Expectations","Student Expectations vs. Student Confidence","Student Expectations (Pre vs. Post)","Student Confidence (Pre vs. Post)"), choiceValues=c("left","right","bottom","bottom-left","bottom-right"), selected="left"),
       
       # time
-      radioButtons("time", "Use pre or post? (For 'Pre vs. Post' comparisons only.)", choices=c("Pre","Post"), selected="Post"),
+      radioButtons("time", "Use pre or post? (For non-'Pre vs. Post' comparisons only.)", choices=c("Pre","Post"), selected="Post"),
       
       # numDec
       sliderInput("numDec", "Select number of decimals in output", min=1, max=5, value=2, step=1, round=TRUE, ticks=FALSE),
