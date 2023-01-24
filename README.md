@@ -8,6 +8,3 @@ shiny::runApp('/thisproject')
 ```
 
 Tested on R version 4.1.0. Requires packages 'nlme' and 'shiny'.
-
-
-[![DOI](https://zenodo.org/badge/592933437.svg)](https://zenodo.org/badge/latestdoi/592933437)
